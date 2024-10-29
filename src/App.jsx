@@ -1,10 +1,11 @@
 import React from "react"
+import LandingPage from "./pages/LandingPage"
 
 function App() {
 
   return (
-    <div className="font-extrabold">
-      hello
+    <div>
+      <LandingPage />
     </div>
   )
 }
